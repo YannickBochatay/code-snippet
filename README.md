@@ -3,21 +3,10 @@ Web component for code snippets based on [highlightjs](https://highlightjs.org/)
 
 ## Installation
 ```html
-<!DOCTYPE html>
-<html lang="fr">
-  <head>
-    <meta charset="UTF-8">
-    <title>My code snippet</title>
-    <script
-      src="https://cdn.jsdelivr.net/npm/code-snippet-wc"
-      type="module"
-    >
-    </script>
-  </head>
-  <body>
-    <code-snippet>Your code here !</code-snippet>
-  </body>
-</html>
+<script
+  src="https://cdn.jsdelivr.net/npm/code-snippet-wc"
+  type="module"
+></script>
 ```
 
 ## Usage

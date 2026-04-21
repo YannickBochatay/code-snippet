@@ -16,7 +16,7 @@
       header {
         display:flex;
         align-items: center;
-        h1 {
+        hgroup {
           flex:1;
         }
       }
@@ -27,26 +27,20 @@
   </head>
   <body>
     <header>
-      <h1>Code snippet</h1>
+      <hgroup>
+        <h1>Code snippet</h1>
+        <p>Web component for code snippets based on <a href="https://highlightjs.org/">highlightjs</a>.</p>
+      </hgroup>
       <a href="https://github.com/YannickBochatay/code-snippet">Github</a>
     </header>
     <main>
+      <p></p>
       <section>
         <h2>Installation</h2>
-        <code-snippet language="html">&lt;!DOCTYPE html>
-&lt;html lang="fr">
-&lt;head>
- &lt;meta charset="UTF-8">
- &lt;title>My code snippet&lt;/title>
- &lt;script
+        <code-snippet language="html">&lt;script
   src="https://cdn.jsdelivr.net/npm/code-snippet-wc"
   type="module"
- >&lt;/script>
-&lt;/head>
-&lt;body>
-  &lt;code-snippet>Your code here !&lt;/code-snippet>
-&lt;/body>
-&lt;/html></code-snippet>
+>&lt;/script></code-snippet>
       </section>
       <section>
         <h2>Usage</h2>
