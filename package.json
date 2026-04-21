@@ -1,5 +1,5 @@
 {
-  "name": "code-snippet",
+  "name": "code-snippet-wc",
   "version": "0.0.1",
   "description": "Web component for code snippets base on highlightjs",
   "main": "index.js",

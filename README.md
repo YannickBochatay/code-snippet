@@ -9,7 +9,7 @@ Web component for code snippets based on [highlightjs](https://highlightjs.org/)
     <meta charset="UTF-8">
     <title>My code snippet</title>
     <script
-      src="https://cdn.jsdelivr.net/npm/code-snippet"
+      src="https://cdn.jsdelivr.net/npm/code-snippet-wc"
       type="module"
     >
     </script>
