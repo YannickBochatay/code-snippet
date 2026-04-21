@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Code snippet">
+    <title>Code snippet</title>
+    <script src="index.js" type="module"></script>
+    <style>
+      html {
+        font-size:16px;
+        font-family:sans-serif;
+        max-width: 80ch;
+        margin:auto;
+      }
+      header {
+        display:flex;
+        align-items: center;
+        h1 {
+          flex:1;
+        }
+      }
+      code-snippet {
+        border:1px solid #bbb;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <h1>Code snippet</h1>
+      <a href="https://github.com/YannickBochatay/code-snippet">Github</a>
+    </header>
+    <main>
+      <section>
+        <h2>Installation</h2>
+        <code-snippet language="html">&lt;!DOCTYPE html>
+&lt;html lang="fr">
+&lt;head>
+ &lt;meta charset="UTF-8">
+ &lt;title>My code snippet&lt;/title>
+ &lt;script
+  src="https://cdn.jsdelivr.net/npm/code-snippet"
+  type="module"
+ >&lt;/script>
+&lt;/head>
+&lt;body>
+  &lt;code-snippet>Your code here !&lt;/code-snippet>
+&lt;/body>
+&lt;/html></code-snippet>
+      </section>
+      <section>
+        <h2>Usage</h2>
+        <section>
+          <h3>Basic</h3>
+          <code-snippet language="html">&lt;code-snippet>console.log("Hello world");&lt;/code-snippet></code-snippet>
+        </section>
+        <section>
+          <h3>Language</h3>
+          <p>You can specify the <a href="https://github.com/highlightjs/highlight.js/blob/main/SUPPORTED_LANGUAGES.md">language</a>. Default is automatic detection.</p>
+          <code-snippet language="html">&lt;code-snippet language="js">console.log("Hello world");&lt;/code-snippet></code-snippet>
+        </section>
+        <section>
+          <h3>Theme</h3>
+          <p>You can specify the <a href="https://github.com/highlightjs/highlight.js/tree/main/src/styles">theme</a>. It will load dynamically.</p>
+          <code-snippet theme="arta" language="html">&lt;code-snippet theme="arta">console.log("Hello world");&lt;/code-snippet></code-snippet>
+        </section>
+      </section>
+    </main>
+  </body>
+</html>

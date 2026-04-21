@@ -1,0 +1,27 @@
+{
+  "name": "code-snippet",
+  "version": "0.0.1",
+  "description": "Web component for code snippets base on highlightjs",
+  "main": "index.js",
+  "files" : ["index.js"],
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/YannickBochatay/code-snippet.git"
+  },
+  "keywords": [
+    "code",
+    "highlight",
+    "highlightsjs",
+    "web",
+    "component"
+  ],
+  "author": "Yannick Bochatay",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/YannickBochatay/code-snippet/issues"
+  },
+  "homepage": "https://github.com/YannickBochatay/code-snippet#readme"
+}
