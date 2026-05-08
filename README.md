@@ -1,5 +1,5 @@
 # code-snippet
-Web component for code snippets based on [highlightjs](https://highlightjs.org/)
+Web component for code snippets based on [highlightjs](https://highlightjs.org/), with copy button.
 
 ## Installation
 ```html
